@@ -1,0 +1,64 @@
+.headers{
+    background-color: rgb(67, 68, 124);
+    height: 200px;
+}
+.anh{
+    border-radius: 300px;
+    border: solid 2px black;
+    width: 100px;
+    height: 100px;
+    position: relative; left: 20px;top: 10px;
+}
+.chu{
+    color: white;
+    position: relative; left: 130px;top: -70px;
+    padding-left: 10px;
+}
+.menu{
+    background-color: rgb(3, 3, 3);
+    position: relative; top:30px; 
+    
+}
+.menu li   {   
+    display: inline-table;
+    color: rgb(138, 206, 74);
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.menu li a  {   
+    display: inline;
+    color: rgb(138, 206, 74);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+
+.headers .menu li a:hover{
+    background-color: yellow;
+    color: purple;
+}
+.menu .sup-menu li {
+    font-size: 25px;
+}
+
+.headers .menu li > .sup-menu{
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: black;
+}
+
+.headers .menu li:hover .sup-menu{
+    display: block;
+}
+.headers .menu .sup-menu li:hover{
+    background-color: yellow;
+    color: purple;
+}
+

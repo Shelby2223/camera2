@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.than{
+    display: grid;
+    grid-template-columns: 10% 90% ;
+}
+.thantrai{ 
+    border: 2px solid black;
+    height: 1000px;
+    padding: 0px;
+    border-bottom: none;
+    border-top: none ;
+    
+}
+.conmenu1{
+    padding: 30px 5px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+.conmenu1:hover{
+    color: rgb(88, 218, 127);
+}
+
+.conmenu2 li {
+    display: block;
+    list-style-type: none;
+    padding: 20px 5px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.conmenu2 li:hover{
+    color: rgb(110, 233, 110);
+
+}
