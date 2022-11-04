@@ -5,9 +5,12 @@
 .thanphai{
     background-color: beige;
 }
-.conphai1 {
-
+.img{
+    width: 90%;
+    height: 73%;
 }
+
+
 .product {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
